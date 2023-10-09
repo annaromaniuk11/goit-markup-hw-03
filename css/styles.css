@@ -178,7 +178,7 @@ img {
   display: block;
 }
 .hero-header {
-  min-width: 169px
+  min-width: 169px;
   text-align: center;
   margin-bottom: 48px;
   margin: 0 auto 48px;
@@ -227,7 +227,7 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
   margin-top: 0;
-  text-align: center
+  text-align: center;
   margin-bottom: 8px;
 }
 .team-list {
@@ -251,7 +251,7 @@ img {
   text-align: center;
   margin-bottom: 8px;
   margin-top: 0;
-  padding: 32px 0
+  padding: 32px 0;
 }
 .profession {
   line-height: 1.5;
@@ -330,7 +330,7 @@ img {
   text-transform: uppercase;
   display: inline-block;
 }
-.footer-logo-link{
+.footer-logo-link {
   margin-bottom: 16px;
 }
 .footer-container {
