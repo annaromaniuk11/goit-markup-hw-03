@@ -10,52 +10,54 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <body>
-    <header class="header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="nav-link-logo" href="./index.html"
-            >Web<span class="nav-link-logo">Studio</span></a
-          >
-          <ul class="nav-list">
-            <li class="nav-item-current">
-              <a class="nav-link" href="./index.html" target="_blank">Studio</a>
-            </li>
-            <li class="nav-item-current">
-              <a class="nav-link" href="" target="_blank">Portfolio</a>
-            </li>
-            <li class="nav-item-current">
-              <a class="nav-link" href="" target="_blank">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="header-address">
-            <li class="header-address-item">
-              <a class="header-address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-address-item">
-              <a class="header-address-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-
+    <body>
+      <header class="header">
+        <div class="container header-container">
+          <nav class="header-nav">
+            <a href="./index.html" class="logo"
+              >Web<span class="header-span">Studio</span></a
+            >
+  
+            <ul class="header-list">
+              <li class="header-list-item">
+                <a href="./index.html" class="header-list-item-link">Studio</a>
+              </li>
+              <li class="header-list-item">
+                <a href="" class="header-list-item-link">Portfolio</a>
+              </li>
+              <li class="header-list-item">
+                <a href="" class="header-list-item-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <address class="header-adress">
+            <ul class="header-adress-list">
+              <li class="header-adress-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="header-adress-item-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="header-adress-item">
+                <a href="tel:+110001111111" class="header-adress-item-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </header>  
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -100,61 +102,63 @@
           </ul>
         </div>
       </section>
-
-      <section class="our-team">
+      <section class="team-section">
         <div class="container">
-          <h2 class="team-title">Our Team</h2>
+          <h2 class="team-header">Our Team</h2>
           <ul class="team-list">
-            <li class="team-item">
+            <li class="team-list-item">
               <img
                 src="./images/img1.jpg"
+                alt="Mark Guerrero"
                 width="264"
                 height="260"
-                alt="Product Designer"
-                class="team-img"
+                class="image"
               />
               <div class="team-container">
-                <h3 class="team-subtitle">Mark Guerrero</h3>
-                <p class="profession">Product Designer</p>
+                <h3 class="team-names">Mark Guerrero</h3>
+                <p class="team-desc">Product Designer</p>
               </div>
             </li>
-            <li class="team-item">
+
+            <li class="team-list-item">
               <img
                 src="./images/img2.jpg"
+                alt="Tom Ford"
                 width="264"
                 height="260"
-                alt="Frontend Developer"
-                class="team-img"
+                class="image"
               />
               <div class="team-container">
-                <h3 class="team-subtitle">Tom Ford</h3>
-                <p class="profession">Frontend Developer</p>
+                <h3 class="team-names">Tom Ford</h3>
+                <p class="team-desc">Frontend Developer</p>
               </div>
             </li>
-            <li class="team-item">
+
+            <li class="team-list-item">
               <img
-                src="./images/img3.jpg"
+                src="images/img3.jpg"
+                alt="Camila Garcia"
                 width="264"
                 height="260"
-                alt="Marketing"
-                class="team-img"
+                class="image"
               />
               <div class="team-container">
-                <h3 class="team-subtitle">Camila Garcia</h3>
-                <p class="profession">Marketing</p>
+                <h3 class="team-names">Camila Garcia</h3>
+                <p class="team-desc">Marketing</p>
               </div>
             </li>
-            <li class="team-item">
+
+            <li class="team-list-item">
               <img
                 src="./images/img4.jpg"
+                alt="Daniel Wilson"
                 width="264"
                 height="260"
-                alt="UI Designer"
-                class="team-img"
+                class="image"
               />
               <div class="team-container">
-                <h3 class="team-subtitle">Daniel Wilson</h3>
-                <p class="profession">UI Designer</p>
+                <h3 class="team-names">Daniel Wilson</h3>
+                <p class="team-desc">UI Designer</p>
               </div>
             </li>
           </ul>

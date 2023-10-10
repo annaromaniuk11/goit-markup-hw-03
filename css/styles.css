@@ -85,7 +85,7 @@ img {
 .header-span {
   color: #2e2f42;
 }
-.nav-link-logo {
+.logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -95,43 +95,41 @@ img {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.nav-list {
+.header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
-.nav-item-currentm {
+.header-list-item {
   display: block;
 }
-.nav-item-current {
+.header-list-item-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
-.nav-item-current-link:hover {
+.header-list-item-link:hover {
   color: #404bbf;
 }
 
-.nav-item-current-link:focus {
+.header-list-item-link:focus {
   color: #404bbf;
 }
 
-.adress {
+.header-adress {
   font-style: normal;
   color: #434455;
   margin-left: auto;
   align-items: center;
 }
-.header-adress {
+.header-adress-list {
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 40px;
-  margin-right: 0;
+  gap: 40px;
 }
 .header-adress-item {
-  display: flex;
-  gap: 40px;
 }
 
 .header-adress-item-link {
@@ -139,13 +137,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.header-adress-item:hover {
+.header-adress-item-link:hover {
   color: #404bbf;
 }
-.header-adress-item:focus {
+.header-adress-item-link:focus {
   color: #404bbf;
 }
-
 /*====================First section =================*/
 .hero {
   background-color: #2e2f42;
@@ -215,11 +212,11 @@ img {
   margin-top: 0;
 }
 /*==================team===============*/
-.our-team {
+.team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.team-title {
+.team-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -227,9 +224,8 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
   margin-top: 0;
-  text-align: center;
-  margin-bottom: 8px;
 }
 .team-list {
   display: flex;
@@ -238,30 +234,28 @@ img {
   align-items: center;
   gap: 24px;
 }
-.team-item {
+.team-list-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.team-subtitles {
+.team-names {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 0;
-  padding: 32px 0;
   margin-bottom: 8px;
-  text-align: center;
+  margin-top: 0;
 }
-.profession {
+.team-desc {
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin: 0;
   text-align: center;
 }
-.profession {
+.team-container {
   padding: 32px 0;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
