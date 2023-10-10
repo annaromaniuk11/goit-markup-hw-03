@@ -98,6 +98,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .nav-item-currentm {
   display: block;
@@ -107,7 +108,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0 24px;
 }
 .nav-item-current-link:hover {
   color: #404bbf;
@@ -124,14 +124,14 @@ img {
   align-items: center;
 }
 .header-adress {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 40px;
   margin-right: 40px;
   margin-right: 0;
 }
 .header-adress-item {
+  display: flex;
+  gap: 40px;
 }
 
 .header-adress-item-link {
@@ -151,6 +151,9 @@ img {
   background-color: #2e2f42;
   padding: 188px 0;
 }
+.hero-title {
+  max-width: 496px;
+}
 .hero-bye-btn {
   background: #4d5ae5;
   font-weight: 500;
@@ -163,10 +166,10 @@ img {
   border: none;
   display: block;
   margin: 0 auto;
-  max-width: 496px;
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
 }
 .hero-bye-btn:hover {
   background-color: #404bbf;
@@ -178,7 +181,6 @@ img {
   display: block;
 }
 .hero-header {
-  min-width: 169px;
   text-align: center;
   margin-bottom: 48px;
   margin: 0 auto 48px;
@@ -225,7 +227,6 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
   margin-top: 0;
   text-align: center;
   margin-bottom: 8px;
@@ -249,9 +250,10 @@ img {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px;
   margin-top: 0;
   padding: 32px 0;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .profession {
   line-height: 1.5;
@@ -328,9 +330,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: inline-block;
 }
 .footer-logo-link {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-container {
