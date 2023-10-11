@@ -150,6 +150,7 @@ img {
 }
 .hero-title {
   max-width: 496px;
+  margin: auto;
 }
 .hero-bye-btn {
   background: #4d5ae5;
@@ -318,12 +319,13 @@ img {
 }
 .footer-logo {
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .footer-logo-link {
   display: inline-block;
