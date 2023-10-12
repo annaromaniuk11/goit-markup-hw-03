@@ -150,7 +150,7 @@ img {
 }
 .hero-title {
   max-width: 496px;
-  margin: auto;
+  margin: 0 auto 48px auto;
 }
 .hero-bye-btn {
   background: #4d5ae5;
