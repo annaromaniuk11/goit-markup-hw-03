@@ -181,7 +181,6 @@ img {
 .hero-header {
   text-align: center;
   margin-bottom: 48px;
-  margin: 0 auto 48px;
 }
 
 /*====================Second section =================*/
@@ -316,9 +315,9 @@ img {
 }
 .footer-span {
   color: #f4f4fd;
-}
-.footer-logo {
   color: #4d5ae5;
+}
+.logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
