@@ -317,7 +317,7 @@ img {
   color: #f4f4fd;
   color: #4d5ae5;
 }
-.footer-logo {
+.logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -325,7 +325,7 @@ img {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.footer-logo-link {
+.logo {
   display: inline-block;
   margin-bottom: 16px;
 }
