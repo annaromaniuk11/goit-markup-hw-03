@@ -307,7 +307,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-information {
+.footer-txt {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -315,17 +315,15 @@ img {
 }
 .footer-span {
   color: #f4f4fd;
-  color: #4d5ae5;
 }
-.logo {
-  font-family: Raleway;
+.footer-logo-txt {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-.logo {
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
 }
